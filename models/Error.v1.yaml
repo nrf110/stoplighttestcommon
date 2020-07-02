@@ -1,0 +1,16 @@
+title: Error
+type: object
+x-tags:
+  - error
+properties:
+  code:
+    type:
+      - string
+      - integer
+  message:
+    type: string
+x-examples:
+  example-1:
+    code: 42
+    message: 'Way to go, genius'
+description: Common error model
